@@ -1,3 +1,11 @@
+### My [solution](<https://doctor-uz.github.io/GitHub-API/>). 
+
+
+
+<img src="githubAPI.gif">
+
+
+
 # GitHub API
 
 Let's use the <a href="https://developer.github.com/v3/">GitHub API</a> to make a UI that allows users to see a list of public repos belonging to a GitHub user that they specify and to see the last 10 commits made to each.
@@ -25,6 +33,6 @@ A couple of things to keep in mind:
 
 2. **DO NOT PUT YOUR GITHUB USER NAME AND PASSWORD INTO YOUR SOURCE CODE**. The whole point of having the username and password fields for this project is to avoid doing that.
 
-<img src="githubapi.gif">
 
-*Bonus Exercise* - If the user clicks a repo a second time, hide the commits. If the user clicks that repo again, display the commits again without fetching them again.
+
+
