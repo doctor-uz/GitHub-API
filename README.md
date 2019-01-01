@@ -2,7 +2,7 @@
 
 
 
-<img src="githubAPI.gif">
+<img src="githubapi.gif">
 
 
 
