@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>github</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>GitHub API fun!!</h1>
+
+        <form>
+            <input type="text" placeholder="username" name="username" autocomplete="off">
+            <input type="password" placeholder="password" name="password" autocomplete="off">
+            <input type="text" placeholder="user to search" name="search" autocomplete="off">
+
+            <button>Submit</button>
+        </form>
+
+
+        <div id="repos-list"></div>
+        <div id="commits-list"></div>
+        <div class="repo-commits"></div>
+
+
+
+
+    <!-- Handel;bars template here -->
+
+    <!-- full_name and avatar_url -->
+        <script id="reposTemplate" type="text/x-handlebars-template">
+            {{#each htmlData}}
+                <div class="repos-container">
+                    <div class="img_src">
+                        <img src="{{owner.avatar_url}}">
+                        <p class="repo-name">{{full_name}}</p>
+
+                    </div>
+                </div>
+            {{/each}}
+        </script>
+
+
+
+<!-- commits are here -->
+
+<script type="text/x-handlebars-template" id="commitsTemplate">
+            <ol>
+            {{#each htmlData}}
+                <li><p id="commits">{{commit.message}}</p></li>
+            {{/each}}
+            </ol>
+</script>
+
+
+    <!-- Handel;bars template here -->
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

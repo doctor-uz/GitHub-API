@@ -1,0 +1,72 @@
+body {
+    background-color: DarkSeaGreen;
+}
+
+.repo-commits {
+    /* padding: 5px; */
+    margin-left: 700px;
+    width: 650px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+#repos-list {
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 2rem;
+    font-weight: bold;
+    color: DarkSlateGrey;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+p {
+    font-size: 26px;
+    font-family: "Helvetica Neue";
+    color: darkslategray;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.img_src {
+    background-color: Gainsboro;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    border: 2px solid black;
+    width: 150px;
+    height: 20px;
+    font-size: 16px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25%;
+}
+
+#commits,
+ol {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
